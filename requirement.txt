@@ -1,0 +1,12 @@
+flask
+tensorflow
+keras
+torch
+torchvision
+Pillow
+numpy
+opencv-python
+fpdf
+requests
+scikit-learn
+matplotlib
