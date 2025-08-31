@@ -1,7 +1,6 @@
 flask
 tensorflow
 keras
-torch
 torchvision
 Pillow
 numpy
