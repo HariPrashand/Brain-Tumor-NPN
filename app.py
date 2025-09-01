@@ -291,4 +291,6 @@ def download_report():
 # Run App
 # ---------------------------
 if __name__ == "__main__":
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 8000))  # use Azure's port
+    app.run(host="0.0.0.0", port=port)
